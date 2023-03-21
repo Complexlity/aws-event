@@ -944,6 +944,35 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.gradient {
+  background: #e3f5ab;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #e3f5ab 0%,
+    #f04b22 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 600px) {
+  .nav-items > span {
+    transition: background 2s;
+  }
+
+  .nav-items:hover > span {
+    background: #e3f5ab;
+    background: radial-gradient(
+      circle farthest-corner at center center,
+      #e3f5ab 0%,
+      #f04b22 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s;
+  }
+}
+
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
