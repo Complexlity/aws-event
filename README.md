@@ -7,7 +7,7 @@ We're going to configure an S3 bucket for static web hosting.
 
 ## Architecture Diagram
 
-<img src ='https://github.com/AugustHottie/AWS-S3/blob/main/Cloud%20Architecture%20-Stackies.png' width = 500px>
+<img src ='https://github.com/AugustHottie/AWS-S3/blob/main/Cloud%20Architecture%20-%20Stackies.png' width = 500px>
 
 ## Steps
 * Sign into your AWS management console
