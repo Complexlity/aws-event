@@ -7,7 +7,7 @@ We're going to configure an S3 bucket for static web hosting.
 
 ## Architecture Diagram
 
-![image](https://user-images.githubusercontent.com/96122635/227253359-0d846c7f-04b1-4d10-82f0-838dfd0513d5.png)
+<img src ='https://github.com/AugustHottie/AWS-S3/blob/main/Cloud%20Architecture%20-Stackies.png' width = 500px>
 
 ## Steps
 * Sign into your AWS management console
@@ -20,3 +20,7 @@ We're going to configure an S3 bucket for static web hosting.
 
 ## Conclusion 
 Upon completing the steps you should now have a stactic website up and running on Amazon S3!!
+
+## Resources 
+You can check out this blog for a detailed walk through on deploying your stactic website
+* https://augusthottie.hashnode.dev/amazon-s3
